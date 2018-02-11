@@ -7,7 +7,8 @@ import {
     Main,
     Wifi,
     BarcodeScanner,
-    QRcodeGenerator
+    QRcodeGenerator,
+    Camera
 } from './screens';
 
 import configureStore from './store/configureStore';
@@ -31,6 +32,7 @@ class App extends React.Component {
                         <Scene key="Wifi" component={Wifi} />
                         <Scene key="BarcodeScanner" component={BarcodeScanner} />
                         <Scene key="QRcodeGenerator" component={QRcodeGenerator} />
+                        <Scene key="Camera" component={Camera} />
                     </Scene>
                 </Router>
             </View>

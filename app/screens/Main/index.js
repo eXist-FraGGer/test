@@ -10,7 +10,7 @@ class Main extends React.Component {
         super(props);
 
         this.state = {
-            testItems: ['Wifi', 'BarcodeScanner', 'QRcodeGenerator']
+            testItems: ['Wifi', 'BarcodeScanner', 'QRcodeGenerator', 'Camera']
         }
     }
 
